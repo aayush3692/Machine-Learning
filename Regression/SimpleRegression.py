@@ -16,7 +16,6 @@ from sklearn.preprocessing import StandardScaler
 sc_X = StandardScaler()
 X_train = sc_X.fit_transform(X_train)
 X_test = sc_X.transform(X_test)
-#had to scale features due to anaconda version on ubuntu 16.04
 
 #FITTING SCALAR LINEAR REGRESSION TO TRAINING SET
 from sklearn.linear_model import LinearRegression
